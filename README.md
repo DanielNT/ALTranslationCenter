@@ -24,9 +24,9 @@ This extension allows to improve speed in multilanguage development in AL Langua
 - Supports translation of the AL project in use in `multiroot workspaces`.
 - You can customize the integrated language mapping, **adding** new languages or **changing** the XLIFF output language.
 
-![Example of use](https://i.ibb.co/dMctxFW/custom-Language-Mapping.png)
+![Example of use](https://user-images.githubusercontent.com/12068767/216785990-b90c0fbf-ef29-409e-b0e9-22faea90343e.png)
 
-## Improvements
+## Improvements!
 - Added directly support for more languages (like Catalan, Galician, Basque, Portuguese, Polish).
 - Translation texts can contain '=' character.
 - Can translate .xlf files created with extension with invalid filenames characters (like ":").
