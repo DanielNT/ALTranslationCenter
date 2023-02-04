@@ -13,19 +13,23 @@ This extension allows to improve speed in multilanguage development in AL Langua
 
 ## Main features
 - Xliff translation, based in developer comments (property `comment`).
-- Publish and package directly with translations, without need to create tasks or do manually. It creates the package (generate the source xliff), then the translations. Finally, it creates/publish after generating new package, now with embedded translation in it.
+- Publish and package **directly with translations**, without need to create tasks or do manually.
+  1) It creates the package (generate the source XLIFF).
+  2) Create the translations from the new source XLIFF file.
+  3) Finally, it creates the package or publish (after generating new package), now with updated and embedded translation in it.
+
 - Included basic translation snippets (for `Label`, `Caption`, `OptionCaption`, `Action`, `Tooltip`, `AboutTitle`, `AboutText` and `AdditionalSearchTerms`).
 - Generated files are compatible to use with `Microsoft© Multilingual Editor`.
 - Search occurrences in case of badly formatted caption translations (prevents of translation process).
 - Supports translation of the AL project in use in `multiroot workspaces`.
+- You can customize the integrated language mapping, **adding** new languages or **changing** the XLIFF output language.
+
+![Example of use](https://i.ibb.co/dMctxFW/custom-Language-Mapping.png)
 
 ## Improvements
 - Added directly support for more languages (like Catalan, Galician, Basque, Portuguese, Polish).
 - Translation texts can contain '=' character.
 - Can translate .xlf files created with extension with invalid filenames characters (like ":").
-- Edit or add new languages for conversion.
-
-![Example of use](https://i.ibb.co/Z6zTc7W/example-Customization.png)
 
 ## Known Issues
 - May not work with first versions of AL Language extension.
