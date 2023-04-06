@@ -9,22 +9,25 @@ This extension allows to improve speed in multilanguage development in AL Langua
 ![Example of developer comments](https://i.ibb.co/ZTbGhC2/example-Label.png)
 
 ## Requirements
-- AL Language extension.
+- AL Language extension for Microsoft Dynamics 365 Business Central.
 
 ## Main features
 - Xliff translation, based in developer comments (property `comment`).
-- Publish and package **directly with translations**, without need to create tasks or do manually.
-  1) It creates the package (generate the source XLIFF).
-  2) Create the translations from the new source XLIFF file.
-  3) Finally, it creates the package or publish (after generating new package), now with updated and embedded translation in it.
-
+- Commands for directly packaging/publishing with the updated translation.
 - Included basic translation snippets (for `Label`, `Caption`, `OptionCaption`, `Action`, `Tooltip`, `AboutTitle`, `AboutText` and `AdditionalSearchTerms`).
 - Generated files are compatible to use with `Microsoft© Multilingual Editor`.
 - Search occurrences in case of badly formatted caption translations (prevents of translation process).
 - Supports translation of the AL project in use in `multiroot workspaces`.
 - You can customize the integrated language mapping, **adding** new languages or **changing** the XLIFF output language.
 
-![Example of use](https://user-images.githubusercontent.com/12068767/216785990-b90c0fbf-ef29-409e-b0e9-22faea90343e.png)
+![Example of use](https://i.ibb.co/dMctxFW/custom-Language-Mapping.png)
+
+## Commands
+| Command                                        |                                                                                                                                                                                                                                                                                                                                          |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ATC: Generate Xliff translations from source` | This command generates the translations (based in developer comments) for the current `NameOfExtension.g.xlf` at folder `Translations` (the source XLIFF). This file is created after executing `AL: Package` or `AL: Publish`. Because the file is created after the package, you need to recreate the package to add the translations. |
+| `ATC: Package with translations`               | Package *directly with translations*, without need to create tasks or do a repacking manually.                                                                                                                                                                                                                                           |
+| `ATC: Publish with translations`               | Generate and publish the package *directly with translations*, without need to create tasks or do manually. You can customize the behavior in settings, and set if you want to publish always with or without debugging without asking.                                                                                                  |
 
 ## Improvements
 - Added directly support for more languages (like Catalan, Galician, Basque, Portuguese, Polish).
@@ -32,5 +35,5 @@ This extension allows to improve speed in multilanguage development in AL Langua
 - Can translate .xlf files created with extension with invalid filenames characters (like ":").
 
 ## Known Issues
-- May not work with first versions of AL Language extension.
-- You tell me.
+- May not work with old versions of AL Language extension (prior to v4.0.182565).
+- You can report an issue at https://github.com/DanielNT/ALTranslationCenter/issues.
