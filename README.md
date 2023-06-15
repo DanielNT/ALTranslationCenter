@@ -10,6 +10,7 @@ This extension allows to improve speed in multilanguage development in AL Langua
 
 ## Requirements
 - AL Language extension for Microsoft Dynamics 365 Business Central.
+- Visual Studio Code v1.56.0 (April 2021) or superior.
 
 ## Main features
 - Xliff translation, based in developer comments (property `comment`).
@@ -21,6 +22,10 @@ This extension allows to improve speed in multilanguage development in AL Langua
 - You can customize the integrated language mapping, **adding** new languages or **changing** the XLIFF output language.
 
 ![Example of use](https://i.ibb.co/dMctxFW/custom-Language-Mapping.png)
+
+- You can map from one abbreviation to multiple languages, separated with `|` character.
+
+![Example of use](https://i.ibb.co/Hn1bSv0/custom-Language-Mapping-Multi.png)
 
 ## Commands
 | Command                                        |                                                                                                                                                                                                                                                                                                                                          |
@@ -37,3 +42,4 @@ This extension allows to improve speed in multilanguage development in AL Langua
 ## Known Issues
 - May not work with old versions of AL Language extension (prior to v4.0.182565).
 - You can report an issue at https://github.com/DanielNT/ALTranslationCenter/issues.
+
