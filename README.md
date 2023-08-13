@@ -1,5 +1,4 @@
-
-# AL Translation Center
+ # AL Translation Center
 
 [![Visual Studio Marketplace Version](https://img.shields.io/vscode-marketplace/v/daniel-nt.al-translation-center.svg?style=flat-square&label=Download%20in%20VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=daniel-nt.al-translation-center) ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/daniel-nt.al-translation-center.svg) ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/daniel-nt.al-translation-center.svg)
 
@@ -48,9 +47,10 @@ This extension allows to improve speed in multilanguage development in AL Langua
 - `tlockedLabel` 
 - `tlockedCaption`  
 
-For a customizable version of language-dependent snippets, use the extension `AL Translation Snippets`:
+For a customizable version of language-dependent snippets, use:
 
-[![Download AL Translation Snippets](https://img.shields.io/vscode-marketplace/v/daniel-nt.al-translation-snippets.svg?style=flat-square&label=Download%20AL%20Translation%20Snippets)](https://marketplace.visualstudio.com/items?itemName=daniel-nt.al-translation-snippets)
+- **AL Translation Snippets** &emsp;[![Download AL Translation Snippets](https://img.shields.io/vscode-marketplace/v/daniel-nt.al-translation-snippets.svg?style=flat-square&label=Download%20AL%20Translation%20Snippets)](https://marketplace.visualstudio.com/items?itemName=daniel-nt.al-translation-snippets)
+
 
 ## Improvements
 - Added directly support for more languages (like Catalan, Galician, Basque, Portuguese, Polish).
