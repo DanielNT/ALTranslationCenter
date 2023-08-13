@@ -51,7 +51,6 @@ This extension allows to improve speed in multilanguage development in AL Langua
 For a customizable version of language-dependent snippets, use the extension `AL Translation Snippets`:
 
 [![Download AL Translation Snippets](https://img.shields.io/vscode-marketplace/v/daniel-nt.al-translation-snippets.svg?style=flat-square&label=Download%20AL%20Translation%20Snippets)](https://marketplace.visualstudio.com/items?itemName=daniel-nt.al-translation-snippets)
-                                                                                                 |
 
 ## Improvements
 - Added directly support for more languages (like Catalan, Galician, Basque, Portuguese, Polish).
