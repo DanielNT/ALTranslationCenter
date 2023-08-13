@@ -10,7 +10,7 @@ This extension allows to improve speed in multilanguage development in AL Langua
 
 ## Requirements
 - AL Language extension for Microsoft Dynamics 365 Business Central.
-- Visual Studio Code v1.56.0 (April 2021) or superior.
+- Visual Studio Code v1.56.0 (April 2021) or higher.
 
 ## Main features
 - Xliff translation, based in developer comments (property `comment`).
@@ -32,7 +32,26 @@ This extension allows to improve speed in multilanguage development in AL Langua
 | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ATC: Generate Xliff translations from source` | This command generates the translations (based in developer comments) for the current `NameOfExtension.g.xlf` at folder `Translations` (the source XLIFF). This file is created after executing `AL: Package` or `AL: Publish`. Because the file is created after the package, you need to recreate the package to add the translations. |
 | `ATC: Package with translations`               | Package *directly with translations*, without need to create tasks or do a repacking manually.                                                                                                                                                                                                                                           |
-| `ATC: Publish with translations`               | Generate and publish the package *directly with translations*, without need to create tasks or do manually. You can customize the behavior in settings, and set if you want to publish always with or without debugging without asking.                                                                                                  |
+| `ATC: Publish with translations`               | Generate and publish the package *directly with translations*, without need to create tasks or do manually. You can customize the behavior in settings, and set if you want to publish always with or without debugging without asking.
+
+## Snippets included
+- `tcaptionWithTranslation`  
+- `ttoolTipWithTranslation`  
+- `tlabelWithTranslation`  
+- `toptionCaptionWithTranslation`  
+- `tactionWithTranslation`  
+- `tcommentWithTranslation`  
+- `taboutTitleWithTranslation`  
+- `tadditionalSearchTermsWithTranslation`  
+- `taboutTextWithTranslation`  
+- `tlockedTrue`  
+- `tlockedLabel` 
+- `tlockedCaption`  
+
+For a customizable version of language-dependent snippets, use the extension `AL Translation Snippets`:
+
+[![Download AL Translation Snippets](https://img.shields.io/vscode-marketplace/v/daniel-nt.al-translation-snippets.svg?style=flat-square&label=Download%20AL%20Translation%20Snippets)](https://marketplace.visualstudio.com/items?itemName=daniel-nt.al-translation-snippets)
+                                                                                                 |
 
 ## Improvements
 - Added directly support for more languages (like Catalan, Galician, Basque, Portuguese, Polish).
@@ -40,6 +59,5 @@ This extension allows to improve speed in multilanguage development in AL Langua
 - Can translate .xlf files created with extension with invalid filenames characters (like ":").
 
 ## Known Issues
-- May not work with old versions of AL Language extension (prior to v4.0.182565).
+- May not work with old versions of AL Language extension (lower than v4.0.182565).
 - You can report an issue at https://github.com/DanielNT/ALTranslationCenter/issues.
-
