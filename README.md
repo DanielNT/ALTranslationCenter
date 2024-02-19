@@ -1,4 +1,4 @@
- # AL Translation Center
+# AL Translation Center
 
 [![Visual Studio Marketplace Version](https://img.shields.io/vscode-marketplace/v/daniel-nt.al-translation-center.svg?style=flat-square&label=Download%20in%20VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=daniel-nt.al-translation-center) ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/daniel-nt.al-translation-center.svg) ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/daniel-nt.al-translation-center.svg)
 
@@ -38,6 +38,8 @@ This extension allows to improve speed in multilanguage development in AL Langua
 - `ttoolTipWithTranslation`  
 - `tlabelWithTranslation`  
 - `toptionCaptionWithTranslation`  
+- `tprofileWithTranslation`  
+- `tprofileDescriptionWithTranslation`  
 - `tactionWithTranslation`  
 - `tcommentWithTranslation`  
 - `taboutTitleWithTranslation`  
@@ -58,5 +60,5 @@ For a customizable version of language-dependent snippets, use:
 - Can translate .xlf files created with extension with invalid filenames characters (like ":").
 
 ## Known Issues
-- May not work with old versions of AL Language extension (lower than v4.0.182565).
+-  `ATC: Package with translations` and `ATC: Publish with translations` will not work with version of AL Language extension lower than `v4.0.182565`.
 - You can report an issue at https://github.com/DanielNT/ALTranslationCenter/issues.
