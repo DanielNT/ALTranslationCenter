@@ -20,11 +20,11 @@ This extension allows to improve speed in multilanguage development in AL Langua
 - Supports translation of the AL project in use in `multiroot workspaces`.
 - You can customize the integrated language mapping, **adding** new languages or **changing** the XLIFF output language.
 
-![Example of use](https://github.com/user-attachments/assets/a56a5e28-2bad-4371-8776-d1406c9c565e)
+![Example of use](https://github.com/user-attachments/assets/c5a9d53d-b6af-497d-b878-f9a9d81efb81)
 
 - You can map from one abbreviation to multiple languages, separated with `|` character.
 
-![Example of use](https://github.com/user-attachments/assets/c5a9d53d-b6af-497d-b878-f9a9d81efb81)
+![Example of use](https://github.com/user-attachments/assets/a56a5e28-2bad-4371-8776-d1406c9c565e)
 
 ## Commands
 | Command                                        |                                                                                                                                                                                                                                                                                                                                          |
