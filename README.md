@@ -1,6 +1,8 @@
 # AL Translation Center
 
-[![Visual Studio Marketplace Version](https://img.shields.io/vscode-marketplace/v/daniel-nt.al-translation-center.svg?style=flat-square&label=Download%20in%20VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=daniel-nt.al-translation-center) ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/daniel-nt.al-translation-center.svg) ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/daniel-nt.al-translation-center.svg)
+[![Version](https://vsmarketplacebadges.dev/version/daniel-nt.al-translation-center.png)](https://marketplace.visualstudio.com/items?itemName=daniel-nt.al-translation-center)
+![Downloads](https://vsmarketplacebadges.dev/downloads/daniel-nt.al-translation-center.png)
+![Installs](https://vsmarketplacebadges.dev/installs/daniel-nt.al-translation-center.png)
 
 
 This extension allows to improve speed in multilanguage development in AL Language using `developer comments` for adding translations. Previously, the idea was used in AL Language Tools extension (thanks ClipDynamics!).
